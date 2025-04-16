@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23605" systemVersion="23F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="ToDoEntity" representedClassName="ToDoEntity" syncable="YES">
+        <attribute name="toDoCompleted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="toDoDate" optional="YES" attributeType="String"/>
+        <attribute name="toDoDescription" optional="YES" attributeType="String"/>
+        <attribute name="toDoId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="toDoTitle" optional="YES" attributeType="String"/>
+    </entity>
+</model>
